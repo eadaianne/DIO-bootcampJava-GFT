@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class areas {
     public static void main(String[] args) {
 
-        double ladoQuadrado, ladoUmRetangulo, ladoDoisRetangulo, baseMenorTrapezio, baseMaiorTrapezio, altura;
+        double ladoQuadrado, ladoUmRetangulo, ladoDoisRetangulo, baseMenorTrapezio, baseMaiorTrapezio, altura, areaQ, areaR, areaT;
 
         System.out.println("Informe os valores do lado do quadrado, lados do retângulo e bases menor, maior e altura do trapézio.");
 
@@ -15,22 +15,25 @@ public class areas {
         baseMaiorTrapezio = entradas.nextDouble();
         altura = entradas.nextDouble();
 
-        area(ladoQuadrado);
-        area(ladoUmRetangulo, ladoDoisRetangulo);
-        area(baseMenorTrapezio, baseMaiorTrapezio, altura);
+        areaQ = area(ladoQuadrado);
+        areaR = area(ladoUmRetangulo, ladoDoisRetangulo);
+        areaT = area(baseMenorTrapezio, baseMaiorTrapezio, altura);
 
+        System.out.println("A área do quadrado é: " +areaQ);
+        System.out.println("A área do retângulo é: " +areaR);
+        System.out.println("A área do trapézio é: " +areaT);
     }
 
-    public static void area(double ladoQuadrado) {
-        System.out.println("A área do quadrado é: " + ladoQuadrado * ladoQuadrado);
+    public static double area(double ladoQuadrado) {
+        return ladoQuadrado * ladoQuadrado;
     }
 
-    public static void area(double ladoUmRetangulo, double ladoDoisRetangulo) {
-        System.out.println("A área do retângulo é: " + ladoUmRetangulo * ladoDoisRetangulo);
+    public static double area(double ladoUmRetangulo, double ladoDoisRetangulo) {
+        return ladoUmRetangulo * ladoDoisRetangulo;
     }
 
-    public static void area(double baseMenorTrapezio, double baseMaiorTrapezio, double altura) {
-        System.out.println("A área do trapézio é: " + ((baseMaiorTrapezio + baseMenorTrapezio) / 2) * altura);
+    public static double area(double baseMenorTrapezio, double baseMaiorTrapezio, double altura) {
+        return ((baseMaiorTrapezio + baseMenorTrapezio) * altura / 2);
     }
 
 }
