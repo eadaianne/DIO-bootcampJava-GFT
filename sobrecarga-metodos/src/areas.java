@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class areas {
     public static void main(String[] args) {
 
-        double ladoQuadrado, ladoUmRetangulo, ladoDoisRetangulo, baseMenorTrapezio, baseMaiorTrapezio, altura, areaQ, areaR, areaT;
+        double ladoQuadrado, ladoUmRetangulo, ladoDoisRetangulo, baseMenorTrapezio;
+        double baseMaiorTrapezio, altura, areaQ, areaR, areaT;
 
-        System.out.println("Informe os valores do lado do quadrado, lados do retângulo e bases menor, maior e altura do trapézio.");
+        System.out.println("Informe os valores do lado do quadrado, lados do retângulo e" +
+                " bases menor, maior e altura do trapézio.");
 
         Scanner entradas  = new Scanner(System.in);
         ladoQuadrado = entradas.nextDouble();
