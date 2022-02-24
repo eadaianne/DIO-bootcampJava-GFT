@@ -7,7 +7,7 @@ public class areas {
 
         System.out.println("Informe os valores do lado do quadrado, lados do retângulo e bases menor, maior e altura do trapézio.");
 
-        Scanner entradas = new Scanner(System.in);
+        Scanner entradas  = new Scanner(System.in);
         ladoQuadrado = entradas.nextDouble();
         ladoUmRetangulo = entradas.nextDouble();
         ladoDoisRetangulo = entradas.nextDouble();
