@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DIO-bootcampJava-GFT.iml" filepath="$PROJECT_DIR$/.idea/DIO-bootcampJava-GFT.iml" />
       <module fileurl="file://$PROJECT_DIR$/atividade-metodos/atividade-metodos.iml" filepath="$PROJECT_DIR$/atividade-metodos/atividade-metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-inicial-dois/desafio-inicial-dois.iml" filepath="$PROJECT_DIR$/desafio-inicial-dois/desafio-inicial-dois.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-inicial-tres/desafio-inicial-tres.iml" filepath="$PROJECT_DIR$/desafio-inicial-tres/desafio-inicial-tres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-inicial-um/desafio-inicial-um.iml" filepath="$PROJECT_DIR$/desafio-inicial-um/desafio-inicial-um.iml" />
       <module fileurl="file://$PROJECT_DIR$/primeiro-programa/primeiro-programa.iml" filepath="$PROJECT_DIR$/primeiro-programa/primeiro-programa.iml" />
       <module fileurl="file://$PROJECT_DIR$/sobrecarga-metodos/sobrecarga-metodos.iml" filepath="$PROJECT_DIR$/sobrecarga-metodos/sobrecarga-metodos.iml" />
     </modules>
