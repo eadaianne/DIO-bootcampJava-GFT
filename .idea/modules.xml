@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DIO-bootcampJava-GFT.iml" filepath="$PROJECT_DIR$/.idea/DIO-bootcampJava-GFT.iml" />
       <module fileurl="file://$PROJECT_DIR$/atividade-metodos/atividade-metodos.iml" filepath="$PROJECT_DIR$/atividade-metodos/atividade-metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-basico-dois/desafio-basico-dois.iml" filepath="$PROJECT_DIR$/desafio-basico-dois/desafio-basico-dois.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-basico-tres/desafio-basico-tres.iml" filepath="$PROJECT_DIR$/desafio-basico-tres/desafio-basico-tres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-basico-um/desafio-basico-um.iml" filepath="$PROJECT_DIR$/desafio-basico-um/desafio-basico-um.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafio-inicial-dois/desafio-inicial-dois.iml" filepath="$PROJECT_DIR$/desafio-inicial-dois/desafio-inicial-dois.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafio-inicial-tres/desafio-inicial-tres.iml" filepath="$PROJECT_DIR$/desafio-inicial-tres/desafio-inicial-tres.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafio-inicial-um/desafio-inicial-um.iml" filepath="$PROJECT_DIR$/desafio-inicial-um/desafio-inicial-um.iml" />
